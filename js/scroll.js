@@ -15,7 +15,7 @@
 	//
 
 	var smoothScroll = {}; // Object for public APIs
-	var supports = 'querySelector' in document && 'addEventListener' in root; // Feature test
+	var supports = 'querySelector' in document && 'addEventListener' in root; // Feature test.ico
 	var settings, anchor, toggle, fixedHeader, headerHeight, eventTimeout, animationInterval;
 
 	// Default settings
@@ -567,7 +567,7 @@
 	 */
 	smoothScroll.init = function ( options ) {
 
-		// feature test
+		// feature test.ico
 		if ( !supports ) return;
 
 		// Destroy any existing initializations
